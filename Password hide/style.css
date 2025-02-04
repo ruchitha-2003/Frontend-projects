@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.password{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    transition: background-color 5s;
+}
+
+.password:focus{
+    outline: 1px solid black;
+    background-color: aliceblue;
+}
+
+.image{
+    cursor: pointer;
+}
